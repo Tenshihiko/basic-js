@@ -8,7 +8,7 @@ module.exports = function createDreamTeam(members) {
   let teamName = '';
   members.forEach((element) => {
     if (typeof (element) === 'string' && element.length > 0) {
-      teamName += element.trim().toUpperCase()[0];
+      teamName += element.trim().toUpperCase().charAt(0);
     }
   });
 
