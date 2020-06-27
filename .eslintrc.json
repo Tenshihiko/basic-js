@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true,
+        "node": true
+    },
+    "extends": ["airbnb-base"],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "rules": {
+        "linebreak-style": ["warn", "windows"],
+
+        /*not my code*/
+        "no-unused-vars": ["warn", { "args": "none", "varsIgnorePattern": "CustomError" }],
+        "no-plusplus": "off"
+    }
+}
