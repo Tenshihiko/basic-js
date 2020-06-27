@@ -1,7 +1,5 @@
 const CustomError = require('../extensions/custom-error');
 
-
-
 const DISCARD_NEXT = '--discard-next';
 const DISCARD_PREV = '--discard-prev';
 const DOUBLE_PREV = '--double-prev';
