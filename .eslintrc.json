@@ -15,6 +15,7 @@
         /*not my code*/
         "no-unused-vars": ["warn", { "args": "none", "varsIgnorePattern": "CustomError" }],
         "no-plusplus": "off",
-        "no-bitwise": "off"
+        "no-bitwise": "off",
+        "no-nested-ternary": "warn"
     }
 }
